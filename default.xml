@@ -468,6 +468,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="device/lge/p990" name="Puri12/AOSPA_device_lge_p990" remote="github" revision="cm-11.0"/>
+  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge" remote="github" revision="cm-10.2-bcmdhd"/>
 
   <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
