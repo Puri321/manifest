@@ -28,7 +28,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="AOSPA-legacy/manifest" remote="github" revision="kitkat" />
+  <project path="manifest" name="Puri321/manifest" remote="github" revision="kitkat2.6" />
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -453,7 +453,7 @@
   <project path="system/core" name="AOSPA-legacy/android_system_core" remote="github" revision="kitkat" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-11.0"/>
   <project path="system/media" name="CyanogenMod/android_system_media" remote="cm" revision="cm-11.0" groups="pdk" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" remote="cm" revision="cm-11.0" groups="pdk" />
+  <project path="system/netd" name="tonyp/android_system_netd" remote="github" revision="cm-11.0" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" remote="cm" revision="cm-11.0" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" remote="cm" revision="cm-11.0" groups="pdk" />
   <project path="system/vold" name="AOSPA-legacy/android_system_vold" remote="github" revision="kitkat" groups="pdk" />
@@ -468,6 +468,8 @@
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
+  <project path="device/lge/p990" name="Puri321/AOSPA_device_lge_p990" remote="github" revision="kitkat2.6"/>
+  <project path="vendor/lge" name="tonyp/proprietary_vendor_lge" remote="github" revision="cm-10.2-bcmdhd"/>
 
   <project path="vendor/pa" name="AOSPA-legacy/android_vendor_pa" remote="github" revision="kitkat" >
     <copyfile src="build.sh" dest="rom-build.sh" />
