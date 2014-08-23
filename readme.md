@@ -30,7 +30,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the ParanoidAndroid trees, use a command like this:
 
-    repo init -u git://github.com/AOSPA-legacy/manifest.git -b kitkat
+    repo init -u git://github.com/Puri321/manifest.git -b kitkat2.6
 
 Then to sync up:
 
