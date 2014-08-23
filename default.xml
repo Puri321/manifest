@@ -28,7 +28,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="manifest" name="Puri321/manifest" remote="github" revision="kitkat2.6" />
+  <project path="manifest" name="Puri321/manifest" remote="github" revision="kitkat" />
 
   <project path="build" name="AOSPA-legacy/android_build" remote="github" revision="kitkat" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -363,7 +363,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/ScreenRecorder" name="AOSPA-legacy/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat" />
-  <project path="packages/apps/Settings" name="AOSPA-legacy/AOSPA_packages_apps_Settings" remote="github" revision="kitkat"  />
+  <project path="packages/apps/Settings" name="AOSPA-legacy/android_packages_apps_Settings" remote="github" revision="kitkat"  />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
